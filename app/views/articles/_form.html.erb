@@ -1,3 +1,4 @@
+<div class="container">
 <% if @article.errors.any? %>
     <h2>Error Occured</h2>
         <ul>
@@ -6,22 +7,19 @@
             <% end %>
         </ul>
 <% end %>
-
-<%= form_for @article do |f| %>
-    <p>
-        <%= f.label :title %></br>
-        <%= f.text_field :title %>
-    </p>
-
-    <p>
-        <%= f.label :description %></br>
-        <%= f.text_area :description %>
-    </p>
-
-    <p>
-        <%= f.submit %>
-    </p>
-
-<% end %>
-
-<%= link_to "Back To Listing", articles_path %>
+<div class="row">
+    <div class="col-md-12">
+        <%= form_for @article do |f| %>
+            <div class="form-group">
+                    <%= f.label :title %>
+                    <%= f.text_field :title, class: "form-control", placeholder: "Title of article", autofocus:true %><br>
+                    <%= f.label :description %>
+                    <%= f.text_area :description, class: "form-control", placeholder: "Body of the article" %><br>
+                    <%= f.submit class: "btn btn-primary" %><br>
+        <% end %>
+        <br>
+        <%= link_to "(Cancel)", articles_path %>
+             </div>
+    </div>
+</div>
+</div>
