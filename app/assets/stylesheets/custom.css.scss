@@ -4,10 +4,18 @@
   background-color: black !important;
 }
 
+nav .navbar-nav li a {
+  color: white !important;
+}
+
+nav .navbar-nav li div a {
+  color: black !important;
+}
+
 #logo {
   float: left;
   font-size: 1.7em;
-  color: #fff;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
