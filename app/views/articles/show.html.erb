@@ -1,8 +1,23 @@
-<h1 class="headings">Showing Article</h1>
-
-<p>Title: <%= @article.title %></p>
-
-<p>Description: <%= @article.description %></p>
-
-<%= link_to "Edit This Article", edit_article_path(@article) %> |
-<%= link_to "Back To Listing", articles_path %>
+<div class="container">
+    <h2 class="headings">
+        <center>
+            Title: <%= @article.title %>
+        </center>
+    </h2>
+    <center>
+    <div class="card col-xs-8 col-xs-offset-2">
+        <div class="card-body">
+            <h4 class="card-title">Description:</h4>
+            <hr>
+            <p><%= @article.description %></p>
+            <div class="article-actions">
+                <%= link_to "Edit This Article", edit_article_path(@article), class: "btn btn-xs btn-primary" %> 
+                <%= link_to "Delete This Article", article_path(@article), method: :delete, 
+                                                    data: { confirm: "Are You Sure?" }, 
+                                                    class: "btn btn-xs btn-danger" %>
+                <%= link_to "View All Articles", articles_path, class: "btn btn-xs btn-success" %>
+            </div>
+        </div>
+    </div>
+    </center>
+</div>
