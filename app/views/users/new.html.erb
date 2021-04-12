@@ -1,0 +1,25 @@
+<div class="container">
+	<h1 class="headings">
+		<center>
+			Signup For Alpha Blog
+		</center>
+	</h1>
+	<%= render 'shared/errors', obj: @user %>
+	<div class="row">
+		<div class="col-md-12">
+			<%= form_for @user do |f| %>
+				<div class="form-group">
+					<%= f.label :username %>
+					<%= f.text_field :username, class: "form-control", placeholder: "Enter username", autofocus:true %><br>
+					<%= f.label :email %>
+					<%= f.email_field :email, class: "form-control", placeholder: "Enter email" %><br>
+					<%= f.label :password %>
+					<%= f.password_field :password, class: "form-control", placeholder: "Enter email" %><br>
+					<%= f.submit "Sign up", class: "btn btn-primary" %><br>
+			<% end %>
+			<br>
+			<%= link_to "(Cancel)", articles_path %>
+				</div>
+		</div>
+	</div>
+</div>
