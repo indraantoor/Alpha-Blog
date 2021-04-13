@@ -9,6 +9,9 @@ gem 'rails', '~> 6.1.3', '>= 6.1.3.1'
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
 gem 'bcrypt', '~> 3.1.7'
+gem 'will_paginate', '3.1.7'
+gem 'bootstrap-will_paginate', '1.0.0'
+gem 'will_paginate-bootstrap4'
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 5.0'

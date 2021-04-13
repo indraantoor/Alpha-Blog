@@ -4,6 +4,10 @@
 			All Alpha Bloggers
 		</center>
 	</h1>
+	<br>
+	<div class="d-flex justify-content-center">
+		<%= will_paginate %>
+	</div>
 	<% @users.each do |user| %>
 		<center>
 			<ul class="listing">
@@ -23,4 +27,7 @@
 			</ul>	
 		</center>
 	<% end %>
+	<div class="d-flex justify-content-center">
+		<%= will_paginate %>
+	</div>
 </div>

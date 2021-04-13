@@ -4,5 +4,12 @@
 				Listing All Articles
 		</center>
 	</h1>
+	<br>
+	<div class="d-flex justify-content-center">
+		<%= will_paginate %>
+	</div>
 	<%= render 'article' , obj: @articles%>
+	<div class="d-flex justify-content-center">
+		<%= will_paginate %>
+	</div>
 </div>
