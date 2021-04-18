@@ -5,6 +5,13 @@
 		</center>
 	</h1>
 	<br>
+	<% if logged_in? and current_user.admin? %>
+		<div class="d-flex justify-content-center">
+			<span class="badge badge-secondary">
+				<%= link_to "Edit Category Name", edit_category_path(@category) %>
+			</span>
+		</div>
+	<% end %>
 	<div class="d-flex justify-content-center">
 		<%= will_paginate @category_articles %>
 	</div>
