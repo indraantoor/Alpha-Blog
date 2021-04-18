@@ -56,6 +56,10 @@ nav .navbar-nav li div a {
   padding-top: 20px;
 }
 
+.input_checkbox {
+  padding-right: 10px;
+}
+
 .article-title {
   font-weight: bold;
   font-size: 1.5em;
@@ -70,6 +74,17 @@ nav .navbar-nav li div a {
 .listing {
   list-style: none;
   padding-left: 0;
+}
+
+.badge {
+  background-color: #cef6f5;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
 }
 
 footer {
