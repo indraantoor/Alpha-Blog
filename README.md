@@ -140,6 +140,18 @@ You can create an account to start writing articles on the blog. If you already 
 
 <img src="https://i.ibb.co/pLzjTQC/sign-up.png" alt="sign-up" border="0" />
 
+### Create New Article
+
+<img src="https://i.ibb.co/ZXzb9Ht/create-article.png" alt="create-article" border="0" />
+
+### See All Categories
+
+<img src="https://i.ibb.co/BgmZK4q/category-listing-page.png" alt="category-listing-page" border="0" />
+
+### Edit Your Profile
+
+<img src="https://i.ibb.co/K5sM2qc/edit-profile.png" alt="edit-profile" border="0" />
+
 <!-- ROADMAP -->
 
 ## Roadmap
