@@ -146,6 +146,8 @@ You can create an account to start writing articles on the blog. If you already 
 
 ### See All Categories
 
+Categories can only be added by the admin right now.
+
 <img src="https://i.ibb.co/BgmZK4q/category-listing-page.png" alt="category-listing-page" border="0" />
 
 ### Edit Your Profile
