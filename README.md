@@ -168,7 +168,4 @@ See the [open issues](https://github.com/indraantoor/Alpha-Blog/issues) for a li
 
 Project Link: [https://github.com/indraantoor/Alpha-Blog](https://github.com/indraantoor/Alpha-Blog)
 
-Linkedin: [https://in.linkedin.com/in/indraantoor](https://in.linkedin.com/in/indraantoor)
-
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/indraantoor
+<a href="https://in.linkedin.com/in/indraantoor"><img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555" /></a>
